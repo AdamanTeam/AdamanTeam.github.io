@@ -8,7 +8,6 @@ title: Impacts of Globalization on Food
   
   Our project will mainly focus on important actual issues regarding its ecological and health aspects. We will first get more insights about the food transportation process, about its origin and destination and the ecological footprint of this transportation. We will then get to find how food affects our health by comparing the food consumption of countries to their global health indicators and look for the effects of this uniformization of food consumption.
 
-
 # The Data
 The data used for this data story can be found on the [Open Food Facts website](https://world.openfoodfacts.org/data). This is a collaborative, free and open database of food products from around the world. A great number of products are referenced in this dataset, along with informations about them like their origin, ingredients, nutional score..
 
@@ -32,13 +31,10 @@ Finally the origin of the ingredients is displayed. Again France is by far the c
 <iframe src="https://adamanteam.github.io/products.html" width="100%" height="400px"></iframe>
   
 # Food Societal Aspects
-
 TODO We first observe the societal aspects of the food around the globe.
 
 ## Food quality and general health
-
 TODO We would first like to discover if for a given country the quality of the food that is consumed there can have an influence on the global health of this country. To this purpose we will use the nutritional coefficients grades, (maybe the average number of nocive additives) and the life expectancy data.
 
 ## Food quality and general wealth
-
 TODO We will also analyze the possible links between average food quality and the global wealth of a country. For this we will again use the nutritional coefficients grades, (maybe the average number of nocive additives) and the GDPs.
