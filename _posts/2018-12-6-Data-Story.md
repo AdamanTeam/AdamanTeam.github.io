@@ -3,8 +3,6 @@ layout: post
 title: Impacts of Globalization on Food
 ---
 
-# Impacts of Globalization on Food 
-
 # Abstract
   With the fast growth and democratization of transports, the food we eat everyday no longer depends on the local production but tends to come from various parts of the globe. Using the Open Food Facts Dataset, our goal is to discover and analyze the various impacts of this food globalization.
   
