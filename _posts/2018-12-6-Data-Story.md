@@ -32,4 +32,10 @@ title: Impacts of Globalization on Food
 
 TODO We first observe the societal aspects of the food around the globe.
 
-## Relations between food quality and general health
+## Food quality and general health
+
+TODO We would first like to discover if for a given country the quality of the food that is consumed there can have an influence on the global health of this country. To this purpose we will use the nutritional coefficients grades, (maybe the average number of nocive additives) and the life expectancy data.
+
+## Food quality and general wealth
+
+TODO We will also analyze the possible links between average food quality and the global wealth of a country. For this we will again use the nutritional coefficients grades, (maybe the average number of nocive additives) and the GDPs.
