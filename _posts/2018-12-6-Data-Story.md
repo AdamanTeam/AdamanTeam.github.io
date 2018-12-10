@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Impacts of Globalization on Food
 ---
-
-<!--- title: Impacts of Globalization on Food  -->
 
 # A Story of Food Globalization
   Is is something we may not pay much attention to or that may have become normal in our everyday lives but the food we buy at the supermarket comes from further and further locations across the globe. If we just think of the products we ate today it is probable that some were grown or manufactured on another continent. With the fast growth and democratization of transports, the food we eat everyday no longer depends on the local production but tends to come from various parts of the globe. 
