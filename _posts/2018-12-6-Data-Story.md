@@ -39,9 +39,13 @@ We start our journey by visualizing on a map the places where the products refer
 TODO We first observe the societal aspects of the food around the globe.
 
 ## Food quality and general health
-TODO We would first like to discover if for a given country the quality of the food that is consumed there can have an influence on the global health of this country. To this purpose we will use the nutritional coefficients grades, (maybe the average number of nocive additives) and the life expectancy data.
+TODO We would first like to discover if for a given country the quality of the food that is consumed there can have an influence on the global health of this country. We represent on a world map the average nutritient score for products in a country, for countries having a sufficient amount of product with this data. Unfortunately like we see a large amount of countries do not meet this requirement. We see that globally nothern countries seems to obtain a better score on average.
 
 <iframe src="https://adamanteam.github.io/nut_scores.html" width="100%" height="400px"></iframe>
+
+We now try to see if we can make any correlation between the average score of a country and its GDP. We compute that there is a correlation score of 0.502 between the scores and the GDPs. This show that a correlation may be possible but is not completely sufficient to prove it. We would need to have more data to confirm or infirm this assumption. We represent the life expectancy next to the normalized average nutritient scores for the countries for which we have data.
+
+![_config.yml]({{ site.baseurl }}/images/grade_lexp.png)
 
 ## Food quality and general wealth
 TODO We will also analyze the possible links between average food quality and the global wealth of a country. For this we will again use the nutritional coefficients grades, (maybe the average number of nocive additives) and the GDPs.
