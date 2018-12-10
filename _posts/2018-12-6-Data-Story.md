@@ -44,9 +44,11 @@ TODO We would first like to discover if for a given country the quality of the f
 
 <iframe src="https://adamanteam.github.io/nut_scores.html" width="100%" height="400px"></iframe>
 
-We now try to see if we can make any correlation between the average score of a country and its GDP. We compute that there is a correlation score of 0.502 between the scores and the GDPs. This show that a correlation may be possible but is not completely sufficient to prove it. We would need to have more data to confirm or infirm this assumption. We represent the life expectancy next to the normalized average nutritient scores for the countries for which we have data.
+We can now try to answer our previous question : does food quality have an impact on our heatlth ? We can try to analyze this by looking if we can make any correlation between the average score of a country and its GDP. A high score would indicate that a country has a better alimentation in general and the life expectancy is a good indicator of the global health of a country. This is why we represent the life expectancy next to a normalized average nutritient scores, for the countries for which we have data.
 
 ![_config.yml]({{ site.baseurl }}/images/grade_lexp.png)
+
+We observe that countries with low nutritient scores seem to have on average a lower life expectancy like it is the case for Romania. The countries with the highest scores, Sweden and the Netherlands, also have some some of highest life expectancy of the set. This could suggest that there may be some correlation between the two. We compute that their correlation score is of 0.502. This show that a correlation may be possible but is not completely sufficient to prove it. We would need more data to confirm or infirm this assumption. 
 
 ## Food quality and general wealth
 TODO We will also analyze the possible links between average food quality and the global wealth of a country. For this we will again use the nutritional coefficients grades, (maybe the average number of nocive additives) and the GDPs.
