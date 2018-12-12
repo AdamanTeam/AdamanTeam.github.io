@@ -70,14 +70,17 @@ This map however doesn't tell us how much ingredients comes from each country, w
 What we notice is that most imported products comes from Spain, Italy and the United Kingdom by a large margin. It is interesting to look at what kind of products are imported from these products using a visualization like WordCloud on the name of the product. 
 Starting with Spain:
 
+### Spain
 ![_config.yml]({{ site.baseurl }}/images/spain_to_france.png)
 
 TODO decrire
 
+### Italy
 ![_config.yml]({{ site.baseurl }}/images/italy_to_france.png)
 
 TODO decrire
 
+### UK
 ![_config.yml]({{ site.baseurl }}/images/uk_to_france.png)
 
 TODO decrire
