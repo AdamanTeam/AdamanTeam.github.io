@@ -51,7 +51,11 @@ We start our journey by visualizing on a map the cluster of where are the origin
 *Cluster map of all places of origins present in the dataset*
 <iframe src="https://adamanteam.github.io/cluster_map.html" width="100%" height="400px"></iframe>
 
-Why in France ? Because the dataset we have contains mostly food product sold in France, therefore we will get the most interesting results.
+Without surprise, we can see on the map the the locations are more precise in Europe and especially in France, where there is a clear cluster of points of origins for the food. This is again due to the very large number of French products.
+
+## France
+
+Why do we focus on France ? Because, as we have seen up until now, the dataset we have contains mostly food product sold in France, therefore we will get the most interesting results.
 
 *Map of all origins of ingredients exported to France*
 <iframe src="https://adamanteam.github.io/geodesic_map.html" width="100%" height="400px"></iframe>
