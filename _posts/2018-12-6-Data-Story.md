@@ -12,7 +12,14 @@ title: A Story of Food Globalization
 
 # The Data
 The data used for this data story can be found on the [Open Food Facts website](https://world.openfoodfacts.org/data). This is a collaborative, free and open database of food products from around the world. A great number of products are referenced in this dataset, along with informations about them like their origin, ingredients, nutional score...
-Note that since that data is maintained by users, some of its information can be false or very biased. The data was cleaned but some errors could still be present.
+Note that since that data is maintained by users, some of its information can be false or very biased. The data was cleaned but some errors could still be present. 
+
+*Number of products in the dataset by country*
+<iframe src="https://adamanteam.github.io/map_occurences.html" width="100%" height="400px"></iframe>
+![_config.yml]({{ site.baseurl }}/images/hist_countries.png)
+
+Another thing about this dataset is that it is now largely dominated by French products, followed by product from the US as we can see on the map (where the log is taken because the number of products from France was too great compared to other countries). This encourages us to focus our analysis on the beautiful country of France!
+
 
   To be able to study the food through various aspects, we also used data from the [World Bank website](https://www.worldbank.org/) to get statistics about countries like their GDP or life expectancy.
 
@@ -38,10 +45,15 @@ We start our journey by visualizing on a map the places where the products refer
 
 --->
 
-# Where does the food sold in France comes from ?
-We start our journey by visualizing on a map from where are the origins of food imported in France. Why in France ? Because the dataset we have contains mostly food product sold in France, therefore we will get the most interesting results.
+# Where does the food comes from ?
+We start our journey by visualizing on a map the cluster of where are the origins of all the food present in the dataset.
 
-*Map of all origins of ingredients*
+*Cluster map of all places of origins present in the dataset*
+<iframe src="https://adamanteam.github.io/cluster_map.html" width="100%" height="400px"></iframe>
+
+Why in France ? Because the dataset we have contains mostly food product sold in France, therefore we will get the most interesting results.
+
+*Map of all origins of ingredients exported to France*
 <iframe src="https://adamanteam.github.io/geodesic_map.html" width="100%" height="400px"></iframe>
 
 On this map, we have a whooping number of 87 countries. The food french people eat comes from really all over the world. 
