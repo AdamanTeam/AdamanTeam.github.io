@@ -47,6 +47,13 @@ We start our journey by visualizing on a map from where are the origins of food 
 
 On this map, we have a whooping number of 87 countries. The food french people eat comes from really all over the world. 
 
+This map however doesn't tell us how much ingredients comes from each country, we therefore now display a Bubble map where the circles are proportional to the number of ingredients originating from that country and sold in France.
+
+*Bubble map proportional to number of products with ingredients originating in the country*
+<iframe src="https://adamanteam.github.io/bubble_map.html" width="100%" height="400px"></iframe>
+
+What we notice is that most imported products comes from Spain, Italy and the United Kingdom by a large margin. It is interesting to look at what kind of products are imported from these products TODO
+
 
 # Food Societal Aspects
 TODO We first observe the societal aspects of the food around the globe.
