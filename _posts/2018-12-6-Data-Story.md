@@ -67,7 +67,20 @@ This map however doesn't tell us how much ingredients comes from each country, w
 *Bubble map proportional to number of products with ingredients originating in the country*
 <iframe src="https://adamanteam.github.io/bubble_map.html" width="100%" height="400px"></iframe>
 
-What we notice is that most imported products comes from Spain, Italy and the United Kingdom by a large margin. It is interesting to look at what kind of products are imported from these products TODO
+What we notice is that most imported products comes from Spain, Italy and the United Kingdom by a large margin. It is interesting to look at what kind of products are imported from these products using a visualization like WordCloud on the name of the product. 
+Starting with Spain:
+
+![_config.yml]({{ site.baseurl }}/images/spain_to_france.png)
+
+TODO decrire
+
+![_config.yml]({{ site.baseurl }}/images/italy_to_france.png)
+
+TODO decrire
+
+![_config.yml]({{ site.baseurl }}/images/uk_to_france.png)
+
+TODO decrire
 
 
 # Food Societal Aspects
