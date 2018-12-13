@@ -45,7 +45,7 @@ We start our journey by visualizing on a map the places where the products refer
 
 --->
 
-# Where does the food comes from ?
+# What kind of food do we import ?
 We start our journey by visualizing on a map the cluster of where are the origins of all the food present in the dataset.
 
 *Cluster map of all places of origins present in the dataset*
@@ -70,20 +70,35 @@ This map however doesn't tell us how much ingredients comes from each country, w
 What we notice is that most imported products comes from Spain, Italy and the United Kingdom by a large margin. It is interesting to look at what kind of products are imported from these products using a visualization like WordCloud on the name of the product. 
 Starting with Spain:
 
-### Spain
+1. **Spain**
 ![_config.yml]({{ site.baseurl }}/images/spain_to_france.png)
+    * Huile d'olive
+    expliquer blalba
+    * Olives Vertes
+    * Tomate
+    * Citron
+    * Orange
+    * Miel
+    * Framboise
 
-TODO decrire
-
-### Italy
+2. **Italy**
 ![_config.yml]({{ site.baseurl }}/images/italy_to_france.png)
+    * Miel
+    * Vinaigre balsamique
+    * Parmigiano Reggiano
+    * Riz
+    * Pomme
+    * Jus de citron
+    
 
-TODO decrire
-
-### UK
+3. **United Kingdom**
 ![_config.yml]({{ site.baseurl }}/images/uk_to_france.png)
-
-TODO decrire
+    * Saumon fumé
+    * Coquille Saint Jacques
+    * Noix de Saint Jacques
+    * Chicken
+    * Whisky
+    
 
 
 # Food Societal Aspects
