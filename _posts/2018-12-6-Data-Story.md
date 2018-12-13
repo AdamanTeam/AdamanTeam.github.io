@@ -73,7 +73,7 @@ Starting with Spain:
 1. **Spain**
 ![_config.yml]({{ site.baseurl }}/images/spain_to_france.png)
     * Huile d'olive
-    expliquer blalba
+    > expliquer blalba
     * Olives Vertes
     * Tomate
     * Citron
