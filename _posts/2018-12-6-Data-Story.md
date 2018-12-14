@@ -116,7 +116,9 @@ We can now try to answer our previous question : does food quality have an impac
 
 We observe that countries with low nutritient scores seem to have on average a lower life expectancy like it is the case for Romania. The countries with the highest scores, Sweden and the Netherlands, also have some some of highest life expectancy of the set. This could suggest that there may be some correlation between the two. We compute that their correlation score is of 0.502. This show that a correlation may be possible but is not completely sufficient to prove it. We would need more data to confirm or infirm this assumption.  We draw here a scatter plot to visualize the dependency between the two.
 
+{:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/grade_lexp_corr.png)
+{: refdef}
 
 ## Food quality and general wealth
 We can now ask ourselves if there exists any possible links between the average food quality and the global wealth of a country. For this we again make use of the nutritional coefficients grades and the GDPs. We plot the results as a bar chart representing the GDP per capita for each country next to a normalized version of their average nutritient score and try to observe if we see any possible dependency. 
