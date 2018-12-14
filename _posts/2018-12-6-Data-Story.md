@@ -118,4 +118,8 @@ We can now ask ourselves if there exists any possible links between the average 
 
 ![_config.yml]({{ site.baseurl }}/images/grade_gdp_capita.png)
 
-We see that there does not seems to be any real correlation between the two data. Wealthy countries like Switzerland, the United States or Australia obtain worse grades than countries with a much lower GDP per captia like Spain or Mexico. This suggest that the wealth of a country does not seems to have any direct influence on the quality of the food that is eaten there. It is not because a country can afford to produce and consume higher quality food that it does. We compute the correlation coefficient of this data and get a value of 0.373. As expected this does not indicate any correlation between the wealth and the food quality.
+We see that there does not seems to be any real correlation between the two data. Wealthy countries like Switzerland, the United States or Australia obtain worse grades than countries with a much lower GDP per captia like Spain or Mexico. This suggest that the wealth of a country does not seems to have any direct influence on the quality of the food that is eaten there. It is not because a country can afford to produce and consume higher quality food that it does. We compute the correlation coefficient of this data and get a value of 0.373. As expected this does not indicate any correlation between the wealth and the food quality. We draw again a scatter plot of the values.
+
+![_config.yml]({{ site.baseurl }}/images/grade_gdp_corr.png)
+
+As we see there does not seems to be a clear correlation between the two. More data would have been necessary to confirm this with more confidence.
