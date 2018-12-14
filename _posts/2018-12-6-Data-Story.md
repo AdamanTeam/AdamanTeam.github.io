@@ -101,9 +101,14 @@ What we notice is that most imported products comes from Spain, Italy and the Un
 We will now try to observe the societal aspects of food around the globe.
 
 ## Food quality and general health
+EXPLIQUER NUTRITIENT SCORE
 We would first like to discover if for a given country the quality of the food that is consumed there can have an influence on the global health of this country. We represent on a world map the average nutritient score for products in a country, for countries having a sufficient amount of product with this data. Unfortunately like we see a large amount of countries do not meet this requirement. We see that globally nothern countries seems to obtain a better score on average.
 
 <iframe src="https://adamanteam.github.io/nut_scores.html" width="100%" height="400px"></iframe>
+
+We can also visualize the distribution of the nutritient scores for the countries having the most products in the dataset.
+
+<iframe src="https://adamanteam.github.io/grades_dist.html" width="100%" height="400px"></iframe>
 
 We can now try to answer our previous question : does food quality have an impact on our heatlth ? We can try to analyze this by looking if we can make any correlation between the average score of a country and its GDP. A high score would indicate that a country has a better alimentation in general and the life expectancy is a good indicator of the global health of a country. This is why we represent the life expectancy next to a normalized average nutritient scores, for the countries for which we have data.
 
