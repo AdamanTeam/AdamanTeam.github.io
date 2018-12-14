@@ -108,7 +108,7 @@ We would first like to discover if for a given country the quality of the food t
 
 We can also visualize the distribution of the nutritient scores for the countries having the most products in the dataset.
 
-<iframe src="https://adamanteam.github.io/grades_dist.html" width="100%" height="400px"></iframe>
+![_config.yml]({{ site.baseurl }}/images/grades_dist.png)
 
 We can now try to answer our previous question : does food quality have an impact on our heatlth ? We can try to analyze this by looking if we can make any correlation between the average score of a country and its GDP. A high score would indicate that a country has a better alimentation in general and the life expectancy is a good indicator of the global health of a country. This is why we represent the life expectancy next to a normalized average nutritient scores, for the countries for which we have data.
 
@@ -125,6 +125,6 @@ We can now ask ourselves if there exists any possible links between the average 
 
 We see that there does not seems to be any real correlation between the two data. Wealthy countries like Switzerland, the United States or Australia obtain worse grades than countries with a much lower GDP per captia like Spain or Mexico. This suggest that the wealth of a country does not seems to have any direct influence on the quality of the food that is eaten there. It is not because a country can afford to produce and consume higher quality food that it does. We compute the correlation coefficient of this data and get a value of 0.373. As expected this does not indicate any correlation between the wealth and the food quality. We draw again a scatter plot of the values.
 
-![_config.yml]({{ site.baseurl }}/images/grade_gdp_corr.png){: .center-image }
+![_config.yml]({{ .center-image }}/images/grade_gdp_corr.png)
 
 As we see there does not seems to be a clear correlation between the two. More data would have been necessary to confirm this with more confidence.
