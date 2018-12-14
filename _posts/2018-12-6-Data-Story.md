@@ -69,7 +69,6 @@ This map however doesn't tell us how much ingredients comes from each country, w
 
 What we notice is that most imported products comes from Spain, Italy and the United Kingdom by a large margin. It is interesting to look at what kind of products are imported from these products using a visualization like WordCloud on the name of the product. 
 Starting with Spain:
-
 1. **Spain**
 ![_config.yml]({{ site.baseurl }}/images/spain_to_france.png)
     * Huile d'olive \
@@ -80,7 +79,6 @@ Starting with Spain:
     * Orange
     * Miel
     * Framboise
-
 2. **Italy**
 ![_config.yml]({{ site.baseurl }}/images/italy_to_france.png)
     * Miel
@@ -89,8 +87,6 @@ Starting with Spain:
     * Riz
     * Pomme
     * Jus de citron
-    
-
 3. **United Kingdom**
 ![_config.yml]({{ site.baseurl }}/images/uk_to_france.png)
     * Saumon fumé
@@ -99,8 +95,6 @@ Starting with Spain:
     * Chicken
     * Whisky
     
-
-
 # Food Societal Aspects
 We will now try to observe the societal aspects of food around the globe.
 
