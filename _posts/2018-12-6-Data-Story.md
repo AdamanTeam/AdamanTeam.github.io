@@ -3,7 +3,7 @@ layout: post
 title: A Story of Food Globalization
 ---
 
-  Is is something we may not pay much attention to or that may have become normal in our everyday lives but the food we buy at the supermarket comes from further and further locations across the globe. If we just think of the products we ate today it is probable that some were grown or manufactured on another continent. With the fast growth and democratization of transports, the food we eat everyday no longer depends on the local production but tends to come from various parts of the globe. 
+  It is something we may not pay much attention to or that may have become normal in our everyday lives but the food we buy at the supermarket comes from further and further locations across the globe. If we just think of the products we ate today it is probable that some were grown or manufactured on another continent. With the fast growth and democratization of transports, the food we eat everyday no longer depends on the local production but tends to come from various parts of the globe. 
   
   This has a lot of consequences that we are not always aware of. At a time when global warming is more than ever an actual issue we can ask ourselves questions about the ecological impact of this phenomenon. Does food globalization have an important ecological fooprint ? But we can also ask ourselves about the health aspect, does this change in the way we feed ourselves has an impact on our health ? Using the Open Food Facts Dataset we will discover and analyze the various impacts of this food globalization.
   
@@ -102,10 +102,10 @@ Starting with Spain:
 
 
 # Food Societal Aspects
-TODO We first observe the societal aspects of the food around the globe.
+We will now try to observe the societal aspects of food around the globe.
 
 ## Food quality and general health
-TODO We would first like to discover if for a given country the quality of the food that is consumed there can have an influence on the global health of this country. We represent on a world map the average nutritient score for products in a country, for countries having a sufficient amount of product with this data. Unfortunately like we see a large amount of countries do not meet this requirement. We see that globally nothern countries seems to obtain a better score on average.
+We would first like to discover if for a given country the quality of the food that is consumed there can have an influence on the global health of this country. We represent on a world map the average nutritient score for products in a country, for countries having a sufficient amount of product with this data. Unfortunately like we see a large amount of countries do not meet this requirement. We see that globally nothern countries seems to obtain a better score on average.
 
 <iframe src="https://adamanteam.github.io/nut_scores.html" width="100%" height="400px"></iframe>
 
@@ -116,6 +116,8 @@ We can now try to answer our previous question : does food quality have an impac
 We observe that countries with low nutritient scores seem to have on average a lower life expectancy like it is the case for Romania. The countries with the highest scores, Sweden and the Netherlands, also have some some of highest life expectancy of the set. This could suggest that there may be some correlation between the two. We compute that their correlation score is of 0.502. This show that a correlation may be possible but is not completely sufficient to prove it. We would need more data to confirm or infirm this assumption. 
 
 ## Food quality and general wealth
-TODO We will also analyze the possible links between average food quality and the global wealth of a country. For this we will again use the nutritional coefficients grades, (maybe the average number of nocive additives) and the GDPs. TODO correlation of 0.373
+We can now ask ourselves if there exists any possible links between the average food quality and the global wealth of a country. For this we again make use of the nutritional coefficients grades and the GDPs. We plot the results as a bar chart representing the GDP per capita for each country next to a normalized version of their average nutritient score and try to observe if we see any possible dependency. 
 
 ![_config.yml]({{ site.baseurl }}/images/grade_gdp_capita.png)
+
+We see that there does not seems to be any real correlation between the two data. Wealthy countries like Switzerland, the United States or Australia obtain worse grades than countries with a much lower GDP per captia like Spain or Mexico. This suggest that the wealth of a country does not seems to have any direct influence on the quality of the food that is eaten there. It is not because a country can afford to produce and consume higher quality food that it does. We compute the correlation coefficient of this data and get a value of 0.373. As expected this does not indicate any correlation between the wealth and the food quality.
