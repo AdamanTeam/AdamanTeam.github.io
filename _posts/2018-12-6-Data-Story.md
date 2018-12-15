@@ -3,7 +3,7 @@ layout: post
 title: A Story of Food Globalization
 ---
 
-  It is something we may not pay much attention to or that may have become normal in our everyday lives but the food we buy at the supermarket comes from further and further locations across the globe. If we just think of the products we ate today it is probable that some were grown or manufactured on another continent. With the fast growth and democratization of transports, the food we eat everyday no longer depends on the local production but tends to come from various parts of the globe.
+  It is a simple thing we may not pay much attention to or that may have become normal in our everyday lives but the food we buy at the supermarket comes from further and further locations across the globe. If we just think of the products we ate today it would not be surprising that some were grown or manufactured on another continent. With the fast growth and democratization of transports, the food we eat everyday no longer depends on the local production but tends to come from various parts of the globe.
 
   This has a lot of consequences that we are not always aware of. At a time when global warming is more than ever an actual issue we can ask ourselves questions about the ecological impact of this phenomenon. Does food globalization have an important ecological fooprint ? But we can also ask ourselves about the health aspect, does this change in the way we feed ourselves has an impact on our health ? Using the Open Food Facts Dataset we will discover and analyze the various impacts of this food globalization.
 
@@ -11,15 +11,14 @@ title: A Story of Food Globalization
 <!---  Our project will mainly focus on important actual issues regarding its ecological and health aspects. We will first get more insights about the food transportation process, about its origin and destination and the ecological footprint of this transportation. We will then get to find how food affects our health by comparing the food consumption of countries to their global health indicators and look for the effects of this uniformization of food consumption. -->
 
 # The Data
-The data used for this data story can be found on the [Open Food Facts website](https://world.openfoodfacts.org/data). This is a collaborative, free and open database of food products from around the world. A great number of products are referenced in this dataset, along with informations about them like their origin, ingredients, nutional score...
-Note that since that data is maintained by users, some of its information can be false or very biased. The data was cleaned but some errors could still be present.
+The data used for this data story can be found on the [Open Food Facts website](https://world.openfoodfacts.org/data). This is a collaborative, free and open database of food products from around the world. A great number of products are referenced in this dataset, along with informations about them like their origin, ingredients, nutional score..
+Note that since that data is collaborative and maintained by users, some of it can be false or very biased. The raw data was cleaned as much as possible but some errors could still be present. We can show an example of this just by plotting the number of products we have in our dataset per country. 
 
 *Number of products in the dataset by country*
 <iframe src="https://adamanteam.github.io/map_occurences.html" width="100%" height="400px"></iframe>
 ![_config.yml]({{ site.baseurl }}/images/hist_countries.png)
 
-Another thing about this dataset is that it is now largely dominated by French products, followed by product from the US as we can see on the map (where the log is taken because the number of products from France was too great compared to other countries). This encourages us to focus our analysis on the beautiful country of France!
-
+As we can see on the map this dataset is largely dominated by French products followed by product from the US (where the log is taken because the number of products from France was too great compared to other countries). This is due to the fact that this collaborative website from which the data was taken is french and visited mostly by french users. To talk about the effect of globalization the best case would have been to have data from all over the world but we can still manage to get interesting results by focusing our analysis on some of these beautiful countries like France!
 
   To be able to study the food through various aspects, we also used data from the [World Bank website](https://www.worldbank.org/) to get statistics about countries like their GDP or life expectancy.
 
