@@ -3,7 +3,7 @@ layout: post
 title: A Story of Food Globalization
 ---
 
-  It is something we may not pay much attention to or that may have become normal in our everyday lives but the food we buy at the supermarket comes from further and further locations across the globe. If we just think of the products we ate today it is probable that some were grown or manufactured on another continent. With the fast growth and democratization of transports, the food we eat everyday no longer depends on the local production but tends to come from various parts of the globe.
+  It is a simple thing we may not pay much attention to or that may have become normal in our everyday lives but the food we buy at the supermarket comes from further and further locations across the globe. If we just think of the products we ate today it would not be surprising that some were grown or manufactured on another continent. With the fast growth and democratization of transports, the food we eat everyday no longer depends on the local production but tends to come from various parts of the globe.
 
   This has a lot of consequences that we are not always aware of. At a time when global warming is more than ever an actual issue we can ask ourselves questions about the ecological impact of this phenomenon. Does food globalization have an important ecological fooprint ? But we can also ask ourselves about the health aspect, does this change in the way we feed ourselves has an impact on our health ? Using the Open Food Facts Dataset we will discover and analyze the various impacts of this food globalization.
 
@@ -11,17 +11,22 @@ title: A Story of Food Globalization
 <!---  Our project will mainly focus on important actual issues regarding its ecological and health aspects. We will first get more insights about the food transportation process, about its origin and destination and the ecological footprint of this transportation. We will then get to find how food affects our health by comparing the food consumption of countries to their global health indicators and look for the effects of this uniformization of food consumption. -->
 
 # The Data
-The data used for this data story can be found on the [Open Food Facts website](https://world.openfoodfacts.org/data). This is a collaborative, free and open database of food products from around the world. A great number of products are referenced in this dataset, along with informations about them like their origin, ingredients, nutional score...
-Note that since that data is maintained by users, some of its information can be false or very biased. The data was cleaned but some errors could still be present.
+The data used for this data story can be found on the [Open Food Facts website](https://world.openfoodfacts.org/data). This is a collaborative, free and open database of food products from around the world. A great number of products are referenced in this dataset, along with informations about them like their origin, ingredients, nutional score..
+Note that since that data is collaborative and maintained by users, some of it can be false or very biased. The raw data was cleaned as much as possible but some errors could still be present. We can show an example of this just by plotting the distribution of the number of products we have in our dataset per country. 
 
 *Number of products in the dataset by country*
-<iframe src="https://adamanteam.github.io/map_occurences.html" width="100%" height="400px"></iframe>
 ![_config.yml]({{ site.baseurl }}/images/hist_countries.png)
 
-Another thing about this dataset is that it is now largely dominated by French products, followed by product from the US as we can see on the map (where the log is taken because the number of products from France was too great compared to other countries). This encourages us to focus our analysis on the beautiful country of France!
+As we can see on the plot this dataset is largely dominated by French products followed by product from the US. This is due to the fact that this collaborative website from which the data was taken is french and visited mostly by french users. To talk about the effect of globalization the best case would have been to have data from all over the world but we can still manage to get interesting results by focusing our analysis on some of these beautiful countries like France!
 
+We can also visualize this on a map to get a better feeling of how these product repartition is made. Here the log is taken because the number of products from France was too great compared to other countries.
 
-  To be able to study the food through various aspects, we also used data from the [World Bank website](https://www.worldbank.org/) to get statistics about countries like their GDP or life expectancy.
+*Map of the number of products in the dataset by country (log visualization)*
+<iframe src="https://adamanteam.github.io/map_occurences.html" width="100%" height="400px"></iframe>
+
+ We see that we most of the products are located in european countries like France or Switzerland. Also some countries like the United States, Mexico or Australia are represented. This is not the ideal case like we already said but this is a common thing to have unperfect data like this in the real world so we will work with it.
+
+  To be able to study the food through various aspects, we also used data from the [World Bank website](https://www.worldbank.org/). These are statistics about countries like their GDP per capita or life expectancy, that we will use later in our story. We are now ready to begin our study. We start by trying to answer the first question that came to our minds : food products often travel hundreds or even thousands of kilometers before reaching our plates, what is then the environmental impact of this food globalization ? 
 
 <!---
 
@@ -45,33 +50,38 @@ We start our journey by visualizing on a map the places where the products refer
 
 --->
 
-# What kind of food do we import ?
-We start our journey by visualizing on a map the cluster of where are the origins of all the food present in the dataset.
+# The environmental impact of food globalization
+We start by the origins : before being transported and then consumed the food needs to be produced or manufactured somewhere. Where is somewhere will you ask ? Well we can discover that by drawing on a map all the locations from which the food in our dataset originates.
 
 *Cluster map of all places of origins present in the dataset*
 <iframe src="https://adamanteam.github.io/cluster_map.html" width="100%" height="400px"></iframe>
 
-Without surprise, we can see on the map the the locations are more precise in Europe and especially in France, where there is a clear cluster of points of origins for the food. This is again due to the very large number of French products.
+We can see on the map that the locations are more precise in Europe where the majority of our products are from, especially in France where there is a clear cluster of points of origins. As we saw previously, since most of our products are located in France this large number of French made products does not surprise us. We can also spot locations in North and South America as well as in Asia.
 
-## France
+## Globalization through the case of France
 
-Why do we focus on France ? Because, as we have seen up until now, the dataset we have contains mostly food product sold in France, therefore we will get the most interesting results.
+As we already saw France is the country which has the richest amount of data, of consumed and produced products in our data. This is why we now chose focus on France as this is by studying specifically this country that we will get the most interesting results. A first step to observe the globalization would then be to look at where does the food consumed in France come from ?
 
-*Map of all origins of ingredients exported to France*
+*Map of French ingredients importations*
 <iframe src="https://adamanteam.github.io/geodesic_map.html" width="100%" height="400px"></iframe>
 
-On this map, we have a whooping number of 87 countries. The food french people eat comes from really all over the world.
+The first thing that suprises us on this map is that we have a whooping number of 87 different origin countries! The food french people import not only comes from close european countries like we could expect but really comes from all over the world. Almost every continent is well represented and food can come from countries as far as New-Zealand. We see that indeed talk today about a globalization of food .
 
-This map however doesn't tell us how much ingredients comes from each country, we therefore now display a Bubble map where the circles are proportional to the number of ingredients originating from that country and sold in France.
+This map however doesn't tell us how much ingredients comes from each country, therefore we now display a Bubble map where the circles are proportional to the number of ingredients originating from that country and sold in France. This will give us additional information about french importations and allow to quantitize them.
 
 *Bubble map proportional to number of products with ingredients originating in the country*
 <iframe src="https://adamanteam.github.io/bubble_map.html" width="100%" height="400px"></iframe>
 
-What we notice is that most imported products comes from Spain, Italy and the United Kingdom by a large margin. It is interesting to look at what kind of products are imported from these products using a visualization like WordCloud on the name of the product.
+What we notice is that most of the imported products comes from relatively close countries like Spain, Italy and the United Kingdom by a large margin. This is something we could have expected since the European Union favorizes the trade of food and products of agriculture among european countries. We still notice that there is a non-negligeable amount of products coming from other continents like Asia, America or Africa. We expect this quantities to be underestimated compared to the reality since our data is biased like we saw. 
 
-1. **Products imported from Spain**
+We now know what quantities of products are transported to France and from where. It could now be interesting an interesting idea to look at what kind of products are the most imported from these countries. We visualize these using  WordClouds where the size of the name of a product is relative to the frequency it appears in the data. Hence the bigger a product appears, the most it is imported to France from this country. We take the case of Spain, Italy and United Kingdom as these three appeared previously to be the biggest exporters to France.
+
+**Products imported from Spain**
+{:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/spain_to_france.png)
-    * Huile d'olive
+{: refdef}
+
+Huile d'olive
     * Olives Vertes
     * Tomate
     * Citron
@@ -81,8 +91,10 @@ What we notice is that most imported products comes from Spain, Italy and the Un
 
     We see that these products consists mainly of olive extracts or fruits and vegetables.
 
-2. **Products imported from Italy**
+**Products imported from Italy**
+{:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/italy_to_france.png)
+{: refdef}
     * Miel
     * Vinaigre balsamique
     * Parmigiano Reggiano
@@ -90,8 +102,10 @@ What we notice is that most imported products comes from Spain, Italy and the Un
     * Pomme
     * Jus de citron
 
-3. **Products imported from United Kingdom**
+**Products imported from United Kingdom**
+{:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/uk_to_france.png)
+{: refdef}
     * Saumon fumé
     * Coquille Saint Jacques
     * Noix de Saint Jacques
