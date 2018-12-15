@@ -62,7 +62,7 @@ We can see on the map that the locations are more precise in Europe where the ma
 
 As we already saw France is the country which has the richest amount of data, of consumed and produced products in our data. This is why we now chose focus on France as this is by studying specifically this country that we will get the most interesting results. A first step to observe the globalization would then be to look at where does the food consumed in France come from ?
 
-*Map of all origins of ingredients exported to France*
+*Map of French ingredients importations*
 <iframe src="https://adamanteam.github.io/geodesic_map.html" width="100%" height="400px"></iframe>
 
 On this map, we have a whooping number of 87 countries. The food french people eat comes from really all over the world.
