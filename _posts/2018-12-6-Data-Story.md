@@ -137,4 +137,6 @@ As we see there does not seems to be a clear correlation between the two. More d
 <iframe src="https://plot.ly/~MaxL./0.embed" width="100%" height="400px"></iframe>
 
 ## Impact of globalisation on the environment
+After trying to analyze how the globalization of food affect the life of people around the world we do need to see how does all this globalization affect the planet too. In order to be able to eat food that is not produced in the country the said so country needs to import it from outside. As shown before most of countries prioritize importations and exportation from the closest countries in order to reduce the ecological impact. However, sometimes we do not have another option rather than importing from far away countries. To compute the impact we decided to make an estimation of the quantity of CO2 emitted, we decided to keep 0.023 kg per km and per gram of packaged used. As shown previously some countries have a larger amount of products in our dataset, this does not mean they import more, at least not in the way we could observe. That is why we decided to normalize the data and hence focus on how countries do import products, i.e do they import from far away countries or more locally?
+
 <iframe src="https://adamanteam.github.io/co2_per_country.html" width="100%" height="400px"></iframe>
