@@ -12,7 +12,7 @@ title: A Story of Food Globalization
 
 # The Data
 The data used for this data story can be found on the [Open Food Facts website](https://world.openfoodfacts.org/data). This is a collaborative, free and open database of food products from around the world. A great number of products are referenced in this dataset, along with informations about them like their origin, ingredients, nutional score..
-Note that since that data is collaborative and maintained by users, some of it can be false or very biased. The raw data was cleaned as much as possible but some errors could still be present. We can show an example of this just by plotting the distribution of the number of products we have in our dataset per country. 
+Note that since that data is collaborative and maintained by users, some of it can be false or very biased. The raw data was cleaned as much as possible but some errors could still be present. We can show an example of this just by plotting the distribution of the number of products we have in our dataset per country.
 
 *Number of products in the dataset by country*
 ![_config.yml]({{ site.baseurl }}/images/hist_countries.png)
@@ -26,7 +26,7 @@ We can also visualize this on a map to get a better feeling of how these product
 
  We see that we most of the products are located in european countries like France or Switzerland. Also some countries like the United States, Mexico or Australia are represented. This is not the ideal case like we already said but this is a common thing to have unperfect data like this in the real world so we will work with it.
 
-  To be able to study the food through various aspects, we also used data from the [World Bank website](https://www.worldbank.org/). These are statistics about countries like their GDP per capita or life expectancy, that we will use later in our story. We are now ready to begin our study. We start by trying to answer the first question that came to our minds : food products often travel hundreds or even thousands of kilometers before reaching our plates, what is then the environmental impact of this food globalization ? 
+  To be able to study the food through various aspects, we also used data from the [World Bank website](https://www.worldbank.org/). These are statistics about countries like their GDP per capita or life expectancy, that we will use later in our story. We are now ready to begin our study. We start by trying to answer the first question that came to our minds : food products often travel hundreds or even thousands of kilometers before reaching our plates, what is then the environmental impact of this food globalization ?
 
 <!---
 
@@ -72,7 +72,7 @@ This map however doesn't tell us how much ingredients comes from each country, t
 *Bubble map proportional to number of products with ingredients originating in the country*
 <iframe src="https://adamanteam.github.io/bubble_map.html" width="100%" height="400px"></iframe>
 
-What we notice is that most of the imported products comes from relatively close countries like Spain, Italy and the United Kingdom by a large margin. This is something we could have expected since the European Union favorizes the trade of food and products of agriculture among european countries. We still notice that there is a non-negligeable amount of products coming from other continents like Asia, America or Africa. We expect this quantities to be underestimated compared to the reality since our data is biased like we saw. 
+What we notice is that most of the imported products comes from relatively close countries like Spain, Italy and the United Kingdom by a large margin. This is something we could have expected since the European Union favorizes the trade of food and products of agriculture among european countries. We still notice that there is a non-negligeable amount of products coming from other continents like Asia, America or Africa. We expect this quantities to be underestimated compared to the reality since our data is biased like we saw.
 
 We now know what quantities of products are transported to France and from where. It could now be interesting an interesting idea to look at what kind of products are the most imported from these countries. We visualize these using  WordClouds where the size of the name of a product is relative to the frequency it appears in the data. Hence the bigger a product appears, the most it is imported to France from this country. We take the case of Spain, Italy and United Kingdom as these three appeared previously to be the biggest exporters to France.
 
@@ -116,7 +116,9 @@ Huile d'olive
 We will now try to observe the societal aspects of food around the globe.
 
 ## Food quality and general health
-EXPLIQUER NUTRITIENT SCORE
+Before getting started we need to explain the notion of Nutrition Score: The Nutrition Score is a score given to each aliment were they perform an analysis of 26 positive and negative factors compared to the calories in the food. The positive factors are those such as vitamins, minerals, proteins, etc. and the negative ones are those such as cholesterol, saturated fat, sugar, etc.
+
+
 We would first like to discover if for a given country the quality of the food that is consumed there can have an influence on the global health of this country. We represent on a world map the average nutritient score for products in a country, for countries having a sufficient amount of product with this data. Unfortunately like we see a large amount of countries do not meet this requirement. We see that globally nothern countries seems to obtain a better score on average.
 
 <iframe src="https://adamanteam.github.io/nut_scores.html" width="100%" height="400px"></iframe>
