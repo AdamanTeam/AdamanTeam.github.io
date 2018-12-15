@@ -132,3 +132,6 @@ We see that there does not seems to be any real correlation between the two data
 {: refdef}
 
 As we see there does not seems to be a clear correlation between the two. More data would have been necessary to confirm this with more confidence.
+
+<iframe src="https://plot.ly/~MaxL./0.embed" width="100%" height="400px"></iframe>
+
