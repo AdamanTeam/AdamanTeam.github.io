@@ -65,14 +65,16 @@ As we already saw France is the country which has the richest amount of data, of
 *Map of French ingredients importations*
 <iframe src="https://adamanteam.github.io/geodesic_map.html" width="100%" height="400px"></iframe>
 
-On this map, we have a whooping number of 87 countries. The food french people eat comes from really all over the world.
+The first thing that suprises us on this map is that we have a whooping number of 87 different origin countries! The food french people import not only comes from close european countries like we could expect but really comes from all over the world. Almost every continent is well represented and food can come from countries as far as New-Zealand. We see that indeed talk today about a globalization of food .
 
-This map however doesn't tell us how much ingredients comes from each country, we therefore now display a Bubble map where the circles are proportional to the number of ingredients originating from that country and sold in France.
+This map however doesn't tell us how much ingredients comes from each country, therefore we now display a Bubble map where the circles are proportional to the number of ingredients originating from that country and sold in France. This will give us additional information about french importations and allow to quantitize them.
 
 *Bubble map proportional to number of products with ingredients originating in the country*
 <iframe src="https://adamanteam.github.io/bubble_map.html" width="100%" height="400px"></iframe>
 
-What we notice is that most imported products comes from Spain, Italy and the United Kingdom by a large margin. It is interesting to look at what kind of products are imported from these products using a visualization like WordCloud on the name of the product.
+What we notice is that most of the imported products comes from relatively close countries like Spain, Italy and the United Kingdom by a large margin. This is something we could have expected since the European Union favorizes the trade of food and products of agriculture among european countries. We still notice that there is a non-negligeable amount of products coming from other continents like Asia, America or Africa. We expect this quantities to be underestimated compared to the reality since our data is biased like we saw. 
+
+We now know what quantities of products are transported to France and from where. It could now be interesting an interesting idea to look at what kind of products are the most imported from these countries. We visualize these using  WordClouds where the size of the name of a product is relative to the frequency it appears in the data. Hence the bigger a product appears, the most it is imported to France from this country.
 
 1. **Products imported from Spain**
 {:refdef: style="text-align: center;"}
