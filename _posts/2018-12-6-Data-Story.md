@@ -76,41 +76,24 @@ What we notice is that most of the imported products comes from relatively close
 
 We now know what quantities of products are transported to France and from where. It could now be interesting an interesting idea to look at what kind of products are the most imported from these countries. We visualize these using  WordClouds where the size of the name of a product is relative to the frequency it appears in the data. Hence the bigger a product appears, the most it is imported to France from this country. We take the case of Spain, Italy and United Kingdom as these three appeared previously to be the biggest exporters to France.
 
-**Products imported from Spain**
+**Spain**
 {:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/spain_to_france.png)
 {: refdef}
 
-Huile d'olive
-    * Olives Vertes
-    * Tomate
-    * Citron
-    * Orange
-    * Miel
-    * Framboise
+Here we see that these products consists mainly of olive extracts or fruits and vegetables, the most exported products being Huile d'olive, Olives Vertes, Tomate, Citron, Orange, Miel, Framboise. These products, specifically fruits and vegetables do not last long so it is understandable that there are mostly exported to the neighboring country of France. These country seems rather healthy and we could say that Spain has a rather positive effect on french alimentation.
 
-    We see that these products consists mainly of olive extracts or fruits and vegetables.
-
-**Products imported from Italy**
+**Italy**
 {:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/italy_to_france.png)
 {: refdef}
-    * Miel
-    * Vinaigre balsamique
-    * Parmigiano Reggiano
-    * Riz
-    * Pomme
-    * Jus de citron
+Here we also see prodcuts like Miel, Vinaigre balsamique, Parmigiano Reggiano, Riz, Pomme, Jus de citron but also some typically italian products like Pizza, Parmigiano Reggiano and Spaghetti.
 
 **Products imported from United Kingdom**
 {:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/uk_to_france.png)
 {: refdef}
-    * Saumon fumé
-    * Coquille Saint Jacques
-    * Noix de Saint Jacques
-    * Chicken
-    * Whisky
+The products exported by the United Kingdom mostly consists of fish or seafood : Saumon fumé, Coquille Saint Jacques, Noix de Saint Jacques, but also alcohols like Whisky.
 
 # Food Societal Aspects
 We will now try to observe the societal aspects of food around the globe.
