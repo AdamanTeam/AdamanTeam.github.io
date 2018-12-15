@@ -12,15 +12,20 @@ title: A Story of Food Globalization
 
 # The Data
 The data used for this data story can be found on the [Open Food Facts website](https://world.openfoodfacts.org/data). This is a collaborative, free and open database of food products from around the world. A great number of products are referenced in this dataset, along with informations about them like their origin, ingredients, nutional score..
-Note that since that data is collaborative and maintained by users, some of it can be false or very biased. The raw data was cleaned as much as possible but some errors could still be present. We can show an example of this just by plotting the number of products we have in our dataset per country. 
+Note that since that data is collaborative and maintained by users, some of it can be false or very biased. The raw data was cleaned as much as possible but some errors could still be present. We can show an example of this just by plotting the distribution of the number of products we have in our dataset per country. 
 
 *Number of products in the dataset by country*
-<iframe src="https://adamanteam.github.io/map_occurences.html" width="100%" height="400px"></iframe>
 ![_config.yml]({{ site.baseurl }}/images/hist_countries.png)
 
-As we can see on the map this dataset is largely dominated by French products followed by product from the US (where the log is taken because the number of products from France was too great compared to other countries). This is due to the fact that this collaborative website from which the data was taken is french and visited mostly by french users. To talk about the effect of globalization the best case would have been to have data from all over the world but we can still manage to get interesting results by focusing our analysis on some of these beautiful countries like France!
+As we can see on the plot this dataset is largely dominated by French products followed by product from the US. This is due to the fact that this collaborative website from which the data was taken is french and visited mostly by french users. To talk about the effect of globalization the best case would have been to have data from all over the world but we can still manage to get interesting results by focusing our analysis on some of these beautiful countries like France!
 
-  To be able to study the food through various aspects, we also used data from the [World Bank website](https://www.worldbank.org/) to get statistics about countries like their GDP or life expectancy.
+We can also visualize this on a map to get a better feeling of how these product repartition is made. Here the log is taken because the number of products from France was too great compared to other countries.
+
+<iframe src="https://adamanteam.github.io/map_occurences.html" width="100%" height="400px"></iframe>
+
+ We see that we most of the products are located in european countries like France or Switzerland. Also some countries like the United States, Mexico or Australia are represented. This is not the ideal case like we already said but this is a common thing to have unperfect data like this in the real world so we will work with it.
+
+  To be able to study the food through various aspects, we also used data from the [World Bank website](https://www.worldbank.org/). These are statistics about countries like their GDP per capita or life expectancy, that we will use later in our story.
 
 <!---
 
