@@ -89,11 +89,21 @@ Here we see that these products consists mainly of olive extracts or fruits and 
 {: refdef}
 Here we also see prodcuts like Miel, Vinaigre balsamique, Parmigiano Reggiano, Riz, Pomme, Jus de citron but also some typically italian products like Pizza, Parmigiano Reggiano and Spaghetti.
 
-**Products imported from United Kingdom**
+**United Kingdom**
 {:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/uk_to_france.png)
 {: refdef}
 The products exported by the United Kingdom mostly consists of fish or seafood : Saumon fumé, Coquille Saint Jacques, Noix de Saint Jacques, but also alcohols like Whisky.
+
+Now that we have a more precise idea about the food transportation across the world, where does it comes from, to where, which kind of food, we can look at the environmental impact of all this transportations.
+
+## Environmental impact
+
+After analyzing how the globalization of food affect the life of people around the world we now want to see how it does affect the planet too. In order to be able to eat food that is not produced in the country, the country needs to import it from the outside. As we saw before with the case of France most countries prioritize importations and exportations from the neighboring countries in order to reduce the ecological impact but also for practical purposes. However, sometimes these countries do not have another option than importing products from far away countries. 
+
+To compute the impact of this transportation we decided to make an estimation of the quantity of CO2 emitted. We decided to keep 0.023 kg per km and per gram of packaged used as a global approximation of the emiteed quantity, since we do not have detailed information about the mode of transportation and path followed by each product. This is not meant to give a precise number of the emissions but rather to allow us to get an idea and a rough approximation of these. As shown previously some countries have a larger amount of products in our dataset, this does not mean they import more, at least not in the way we could observe. That is why we decided to normalize the data and hence focus on how countries do import products, i.e do they import from far away countries or more locally?
+
+<iframe src="https://adamanteam.github.io/co2_per_country.html" width="100%" height="400px"></iframe>
 
 # Food Societal Aspects
 We will now try to observe the societal aspects of food around the globe.
@@ -135,7 +145,4 @@ As we see there does not seems to be a clear correlation between the two. More d
 
 <iframe src="https://plot.ly/~MaxL./0.embed" width="100%" height="400px"></iframe>
 
-## Impact of globalisation on the environment
-After trying to analyze how the globalization of food affect the life of people around the world we do need to see how does all this globalization affect the planet too. In order to be able to eat food that is not produced in the country the said so country needs to import it from outside. As shown before most of countries prioritize importations and exportation from the closest countries in order to reduce the ecological impact. However, sometimes we do not have another option rather than importing from far away countries. To compute the impact we decided to make an estimation of the quantity of CO2 emitted, we decided to keep 0.023 kg per km and per gram of packaged used. As shown previously some countries have a larger amount of products in our dataset, this does not mean they import more, at least not in the way we could observe. That is why we decided to normalize the data and hence focus on how countries do import products, i.e do they import from far away countries or more locally?
 
-<iframe src="https://adamanteam.github.io/co2_per_country.html" width="100%" height="400px"></iframe>
