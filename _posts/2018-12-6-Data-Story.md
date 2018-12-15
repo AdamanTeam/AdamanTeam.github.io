@@ -3,16 +3,16 @@ layout: post
 title: A Story of Food Globalization
 ---
 
-  It is something we may not pay much attention to or that may have become normal in our everyday lives but the food we buy at the supermarket comes from further and further locations across the globe. If we just think of the products we ate today it is probable that some were grown or manufactured on another continent. With the fast growth and democratization of transports, the food we eat everyday no longer depends on the local production but tends to come from various parts of the globe. 
-  
+  It is something we may not pay much attention to or that may have become normal in our everyday lives but the food we buy at the supermarket comes from further and further locations across the globe. If we just think of the products we ate today it is probable that some were grown or manufactured on another continent. With the fast growth and democratization of transports, the food we eat everyday no longer depends on the local production but tends to come from various parts of the globe.
+
   This has a lot of consequences that we are not always aware of. At a time when global warming is more than ever an actual issue we can ask ourselves questions about the ecological impact of this phenomenon. Does food globalization have an important ecological fooprint ? But we can also ask ourselves about the health aspect, does this change in the way we feed ourselves has an impact on our health ? Using the Open Food Facts Dataset we will discover and analyze the various impacts of this food globalization.
-  
-  
+
+
 <!---  Our project will mainly focus on important actual issues regarding its ecological and health aspects. We will first get more insights about the food transportation process, about its origin and destination and the ecological footprint of this transportation. We will then get to find how food affects our health by comparing the food consumption of countries to their global health indicators and look for the effects of this uniformization of food consumption. -->
 
 # The Data
 The data used for this data story can be found on the [Open Food Facts website](https://world.openfoodfacts.org/data). This is a collaborative, free and open database of food products from around the world. A great number of products are referenced in this dataset, along with informations about them like their origin, ingredients, nutional score...
-Note that since that data is maintained by users, some of its information can be false or very biased. The data was cleaned but some errors could still be present. 
+Note that since that data is maintained by users, some of its information can be false or very biased. The data was cleaned but some errors could still be present.
 
 *Number of products in the dataset by country*
 <iframe src="https://adamanteam.github.io/map_occurences.html" width="100%" height="400px"></iframe>
@@ -60,14 +60,14 @@ Why do we focus on France ? Because, as we have seen up until now, the dataset w
 *Map of all origins of ingredients exported to France*
 <iframe src="https://adamanteam.github.io/geodesic_map.html" width="100%" height="400px"></iframe>
 
-On this map, we have a whooping number of 87 countries. The food french people eat comes from really all over the world. 
+On this map, we have a whooping number of 87 countries. The food french people eat comes from really all over the world.
 
 This map however doesn't tell us how much ingredients comes from each country, we therefore now display a Bubble map where the circles are proportional to the number of ingredients originating from that country and sold in France.
 
 *Bubble map proportional to number of products with ingredients originating in the country*
 <iframe src="https://adamanteam.github.io/bubble_map.html" width="100%" height="400px"></iframe>
 
-What we notice is that most imported products comes from Spain, Italy and the United Kingdom by a large margin. It is interesting to look at what kind of products are imported from these products using a visualization like WordCloud on the name of the product. 
+What we notice is that most imported products comes from Spain, Italy and the United Kingdom by a large margin. It is interesting to look at what kind of products are imported from these products using a visualization like WordCloud on the name of the product.
 
 1. **Products imported from Spain**
 ![_config.yml]({{ site.baseurl }}/images/spain_to_france.png)
@@ -78,8 +78,9 @@ What we notice is that most imported products comes from Spain, Italy and the Un
     * Orange
     * Miel
     * Framboise
-    We see that these products consists mainly of olive extracts or fruits and vegetables. 
-    
+
+    We see that these products consists mainly of olive extracts or fruits and vegetables.
+
 2. **Products imported from Italy**
 ![_config.yml]({{ site.baseurl }}/images/italy_to_france.png)
     * Miel
@@ -88,7 +89,7 @@ What we notice is that most imported products comes from Spain, Italy and the Un
     * Riz
     * Pomme
     * Jus de citron
-    
+
 3. **Products imported from United Kingdom**
 ![_config.yml]({{ site.baseurl }}/images/uk_to_france.png)
     * Saumon fumé
@@ -96,7 +97,7 @@ What we notice is that most imported products comes from Spain, Italy and the Un
     * Noix de Saint Jacques
     * Chicken
     * Whisky
-    
+
 # Food Societal Aspects
 We will now try to observe the societal aspects of food around the globe.
 
@@ -121,7 +122,7 @@ We observe that countries with low nutritient scores seem to have on average a l
 {: refdef}
 
 ## Food quality and general wealth
-We can now ask ourselves if there exists any possible links between the average food quality and the global wealth of a country. For this we again make use of the nutritional coefficients grades and the GDPs. We plot the results as a bar chart representing the GDP per capita for each country next to a normalized version of their average nutritient score and try to observe if we see any possible dependency. 
+We can now ask ourselves if there exists any possible links between the average food quality and the global wealth of a country. For this we again make use of the nutritional coefficients grades and the GDPs. We plot the results as a bar chart representing the GDP per capita for each country next to a normalized version of their average nutritient score and try to observe if we see any possible dependency.
 
 ![_config.yml]({{ site.baseurl }}/images/grade_gdp_capita.png)
 
@@ -135,3 +136,5 @@ As we see there does not seems to be a clear correlation between the two. More d
 
 <iframe src="https://plot.ly/~MaxL./0.embed" width="100%" height="400px"></iframe>
 
+## Impact of globalisation on the environment
+<iframe src="https://adamanteam.github.io/co2_per_country.html" width="100%" height="400px"></iframe>
