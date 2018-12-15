@@ -73,7 +73,8 @@ What we notice is that most imported products comes from Spain, Italy and the Un
 {:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/spain_to_france.png)
 {: refdef}
-    * Huile d'olive
+
+Huile d'olive
     * Olives Vertes
     * Tomate
     * Citron
