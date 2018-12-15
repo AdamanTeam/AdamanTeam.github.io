@@ -95,7 +95,9 @@ Here we also see prodcuts like Miel, Vinaigre balsamique, Parmigiano Reggiano, R
 {: refdef}
 The products exported by the United Kingdom mostly consists of fish or seafood : Saumon fumé, Coquille Saint Jacques, Noix de Saint Jacques, but also alcohols like Whisky.
 
-Now that we have a more precise idea about the food transportation across the world, where does it comes from, to where, which kind of food, we can look at the environmental impact of all this transportations.
+As it can be observed, most of the exported products from each of those three countries are signature products that show the identity of the country, its culture, and from which they are renowned. It also gives us insights on what type of bases those countries have in their traditional alimentation.
+
+Now that we have a more precise idea about the food transportation across the world, where does it come from, to where, which kind of food, we can look at the environmental impact of all this transportations.
 
 ## Environmental impact
 
@@ -119,9 +121,11 @@ We will now try to observe the societal aspects of food around the globe.
 Before getting started we need to explain the notion of Nutrition Score: The Nutrition Score is a score given to each aliment were they perform an analysis of 26 positive and negative factors compared to the calories in the food. The positive factors are those such as vitamins, minerals, proteins, etc. and the negative ones are those such as cholesterol, saturated fat, sugar, etc.
 
 ## Food quality and general health
-We would first like to discover if for a given country the quality of the food that is consumed there can have an influence on the global health of this country. We represent on a world map the average nutrition score for products in a country, for countries having a sufficient amount of product with this data. Unfortunately, like we see, a large amount of countries do not meet this requirement. We see that globally nothern countries seem to obtain a better score on average.
+We would first like to discover if for a given country the quality of the food that is consumed there can have an influence on the global health of this country. We represent on a world map the average nutrition score for products in a country, for countries having a sufficient amount of product with this data.
 
 <iframe src="https://adamanteam.github.io/nut_scores.html" width="100%" height="400px"></iframe>
+
+Unfortunately, like we see, a large amount of countries do not meet this requirement and thus they are represented in greyish colours. We see that globally nothern countries seem to obtain a better score on average.
 
 We can also visualize the distribution of the nutrition scores for the countries having the most products in the dataset.
 
@@ -131,7 +135,7 @@ We can now try to answer our previous question: does food quality have an impact
 
 ![_config.yml]({{ site.baseurl }}/images/grade_lexp.png)
 
-We observe that countries with low nutrition scores seem to have on average a lower life expectancy like it is the case for Romania. The countries with the highest scores, Sweden and the Netherlands, also have some of highest life expectancy of the set. This could suggest that there may be some correlation between the two. We compute that their correlation score is of 0.502. This shows that a correlation may be possible but it is still not completely sufficient to prove it. We would need more data to confirm or infirm this assumption.  We draw here a scatter plot to visualize the dependency between the two.
+We observe that countries with low nutrition scores seem to have on average a lower life expectancy as it is the case for Romania. The countries with the highest scores, Sweden and the Netherlands, also have some of highest life expectancy of the set. This could suggest that there may be some correlation between the two. We found that their correlation score is of 0.502. This shows that a correlation may be possible but it is still not completely sufficient to prove it. We would need more data to confirm or infirm this assumption.  We draw here a scatter plot to visualize the dependency between the two.
 
 {:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/grade_lexp_corr.png)
@@ -150,4 +154,10 @@ We see that there does not seem to be any real correlation between the two data.
 
 As we see there does not seems to be a clear correlation between the two. More data would have been necessary to confirm this with more confidence.
 
+Comparing both of the scatter plots we see that life expectancy has a higher correlation to the nutrition grade. However, it is yet important to consider the fact that life expectancy can be lower in countries that have conflictive zones or where living requires work under extreme conditions.
+
+<!-- Usually, countries with a high nutrition grade have a higher chance to have a higher level of life-style implying a general wealth that is higher than in other countries. We also need to consider that some countries that have some of the highest wealth have the worst lifestyles as it is the case of the United States with one of the highest rate of obesity among its population. -->
+
 <iframe src="https://plot.ly/~MaxL./0.embed" width="100%" height="400px"></iframe>
+
+This graph shows the different distribution of aliments consumed in France. It shows that among the three most consumed aliments we have dairies and meals which do not delight on having the highest nutrition scores due to their high amount of fat and saturated fat. This is probably one of the reasons why its average Nutrition Score is lower than Germany or Spain ones. The worst of all of this being the sugary snacks placed on 5th position.
