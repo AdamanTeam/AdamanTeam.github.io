@@ -21,6 +21,7 @@ As we can see on the plot this dataset is largely dominated by French products f
 
 We can also visualize this on a map to get a better feeling of how these product repartition is made. Here the log is taken because the number of products from France was too great compared to other countries.
 
+*Map of the number of products in the dataset by country (log visualization)*
 <iframe src="https://adamanteam.github.io/map_occurences.html" width="100%" height="400px"></iframe>
 
  We see that we most of the products are located in european countries like France or Switzerland. Also some countries like the United States, Mexico or Australia are represented. This is not the ideal case like we already said but this is a common thing to have unperfect data like this in the real world so we will work with it.
