@@ -26,7 +26,7 @@ We can also visualize this on a map to get a better feeling of how these product
 
  We see that we most of the products are located in european countries like France or Switzerland. Also some countries like the United States, Mexico or Australia are represented. This is not the ideal case like we already said but this is a common thing to have unperfect data like this in the real world so we will work with it.
 
-  To be able to study the food through various aspects, we also used data from the [World Bank website](https://www.worldbank.org/). These are statistics about countries like their GDP per capita or life expectancy, that we will use later in our story.
+  To be able to study the food through various aspects, we also used data from the [World Bank website](https://www.worldbank.org/). These are statistics about countries like their GDP per capita or life expectancy, that we will use later in our story. We are now ready to begin our study. We start by trying to answer the first question that came to our minds : food products often travel hundreds or even thousands of kilometers before reaching our plates, what is then the environmental impact of this food globalization ? 
 
 <!---
 
@@ -50,17 +50,17 @@ We start our journey by visualizing on a map the places where the products refer
 
 --->
 
-# What kind of food do we import ?
-We start our journey by visualizing on a map the cluster of where are the origins of all the food present in the dataset.
+# The environmental impact of food globalization
+We start by the origins : before being transported and then consumed the food needs to be produced or manufactured somewhere. Where is somewhere will you ask ? Well we can discover that by drawing on a map all the locations from which the food in our dataset originates.
 
 *Cluster map of all places of origins present in the dataset*
 <iframe src="https://adamanteam.github.io/cluster_map.html" width="100%" height="400px"></iframe>
 
-Without surprise, we can see on the map the the locations are more precise in Europe and especially in France, where there is a clear cluster of points of origins for the food. This is again due to the very large number of French products.
+We can see on the map that the locations are more precise in Europe where the majority of our products are from, especially in France where there is a clear cluster of points of origins. As we saw previously, since most of our products are located in France this large number of French made products does not surprise us. We can also spot locations in North and South America as well as in Asia.
 
-## France
+## Globalization through the case of France
 
-Why do we focus on France ? Because, as we have seen up until now, the dataset we have contains mostly food product sold in France, therefore we will get the most interesting results.
+As we already saw France is the country which has the richest amount of data, of consumed and produced products in our data. This is why we now chose focus on France as this is by studying specifically this country that we will get the most interesting results. A first step to observe the globalization would then be to look at where does the food consumed in France come from ?
 
 *Map of all origins of ingredients exported to France*
 <iframe src="https://adamanteam.github.io/geodesic_map.html" width="100%" height="400px"></iframe>
