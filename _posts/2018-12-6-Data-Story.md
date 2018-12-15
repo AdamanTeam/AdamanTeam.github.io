@@ -74,9 +74,9 @@ This map however doesn't tell us how much ingredients comes from each country, t
 
 What we notice is that most of the imported products comes from relatively close countries like Spain, Italy and the United Kingdom by a large margin. This is something we could have expected since the European Union favorizes the trade of food and products of agriculture among european countries. We still notice that there is a non-negligeable amount of products coming from other continents like Asia, America or Africa. We expect this quantities to be underestimated compared to the reality since our data is biased like we saw. 
 
-We now know what quantities of products are transported to France and from where. It could now be interesting an interesting idea to look at what kind of products are the most imported from these countries. We visualize these using  WordClouds where the size of the name of a product is relative to the frequency it appears in the data. Hence the bigger a product appears, the most it is imported to France from this country.
+We now know what quantities of products are transported to France and from where. It could now be interesting an interesting idea to look at what kind of products are the most imported from these countries. We visualize these using  WordClouds where the size of the name of a product is relative to the frequency it appears in the data. Hence the bigger a product appears, the most it is imported to France from this country. We take the case of Spain, Italy and United Kingdom as these three appeared previously to be the biggest exporters to France.
 
-1. **Products imported from Spain**
+**Products imported from Spain**
 {:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/spain_to_france.png)
 {: refdef}
@@ -91,7 +91,7 @@ Huile d'olive
 
     We see that these products consists mainly of olive extracts or fruits and vegetables.
 
-2. **Products imported from Italy**
+**Products imported from Italy**
 {:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/italy_to_france.png)
 {: refdef}
@@ -102,7 +102,7 @@ Huile d'olive
     * Pomme
     * Jus de citron
 
-3. **Products imported from United Kingdom**
+**Products imported from United Kingdom**
 {:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/uk_to_france.png)
 {: refdef}
