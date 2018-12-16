@@ -85,12 +85,23 @@ We now know what quantities of products are transported to France and from where
 ![_config.yml]({{ site.baseurl }}/images/spain_to_france.png)
 {: refdef}
 
-Here we see that these products consists mainly of olive extracts or fruits and vegetables, the most exported products being Huile d'olive, Olives Vertes, Tomate, Citron, Orange, Miel, Framboise. These products, specifically fruits and vegetables do not last long so it is understandable that there are mostly exported to the neighboring country of France. These country seems rather healthy and we could say that Spain has a rather positive effect on french alimentation.
+Here we see that these products consists mainly of olive extracts or fruits and vegetables, the most exported products being Huile d'olive (olive oil), Olives Vertes (green olives), Tomate (tomato), Citron (Lemon), Orange (well... oranges), Miel (honey), Framboise (cranberry). It is interesting to dig a bit on some of these product, starting with olives.
+
+*Olives*: 
+Based on its [Wikipedia](https://fr.wikipedia.org/wiki/Olive) page, olives mainly grow on the coasts of the Mediteranean Sea.
+
+{:refdef: style="text-align: center;"}
+![_config.yml](https://upload.wikimedia.org/wikipedia/commons/a/ab/Olive_niche.jpg)
+{: refdef}
+
+As we might know, olive oil is a main ingredient in a lot of recipes, and it definitely a main food component in French cuisine. But since we see that it doesn't really grow in France, we understand the need for them to import it from neighbouring countries to satisfy the demand.
+
 
 **Italy**
 {:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/italy_to_france.png)
 {: refdef}
+
 Here we also see prodcuts like Miel, Vinaigre balsamique, Parmigiano Reggiano, Riz, Pomme, Jus de citron but also some typically italian products like Pizza, Parmigiano Reggiano and Spaghetti.
 
 **United Kingdom**
@@ -169,10 +180,10 @@ However, it is yet important to consider the fact that life expectancy can be lo
 
 TODO JE VAIS METTRE UN PIE D UN AUTRE PAYS POUR COMPARER
 
-We have seen that the food quality can have an impact on our health. We can now ask ourselves, could this lead wealthier countries to import and consume food of better quality?
+We have seen that the food quality can have an impact on our health. We can now ask ourselves, could this lead wealthier countries to import and consume food of better quality ?
 
 ## Food quality and general wealth
-We try to see if there exists any possible links between the average food quality and the global wealth of a country. If a country is reach enough to produce and import food of better quality will this be the case? For this we again make use of the nutritional coefficient grades and the GDPs per capita for every country. We plot this data as a bar chart representing the GDP per capita for each country next to a normalized version of their average nutrition score and try to observe if we see any possible dependency.
+We try to see if there exists any possible links between the average food quality and the global wealth of a country. If a country is reach enough to produce and import food of better quality will this be the case ? For this we again make use of the nutritional coefficient grades and the GDPs per capita for every country. We plot this data as a bar chart representing the GDP per capita for each country next to a normalized version of their average nutrition score and try to observe if we see any possible dependency.
 
 *Plot of the Average Nutrition Scores and GDP per capita per country*
 ![_config.yml]({{ site.baseurl }}/images/grade_gdp_capita.png)
@@ -192,7 +203,7 @@ In conclusion we can say that it is not because a country can afford to produce 
 
 ## Conclusion 
 
-As we saw throughout this story, food globalization has many aspects that we saw in the way it impacts the world but also us. On the transportation and evironmental aspects the countries still seems to favorize importations from neighboring countries if they have the choice, otherwise the food they consume can travel thousands of kilometers before being eaten. This can have a serious impact on environment at a time when global warming is more than ever a question of actuality. On the health aspects, we saw that we can effectively talk about an impact of food on health. Countries which eat better seems to have a better overall health. Still we also saw through the economical aspect that it is not because a country is wealthier that it does eat better. The food quality is little influenced by the economy of a country. Rather globalization tends to an unifomization of this food quality around the world. The subject of food is very vast and there are still a lot of aspects that could not be developed in this story. Where will this food globalization lead us? Only the future will tell us.
+As we saw throughout this story, food globalization has many aspects that we saw in the way it impacts the world but also us. On the transportation and evironmental aspects the countries still seems to favorize importations from neighboring countries if they have the choice, otherwise the food they consume can travel thousands of kilometers before being eaten. This can have a serious impact on environment at a time when global warming is more than ever a question of actuality. On the health aspects, we saw that we can effectively talk about an impact of food on health. Countries which eat better seems to have a better overall health. Still we also saw through the economical aspect that it is not because a country is wealthier that it does eat better. The food quality is little influenced by the economy of a country. Rather globalization tends to an unifomization of this food quality around the world. The subject of food is very vast and there are still a lot of aspects that could not be developed in this story. Where will this food globalization lead us ? Only the future will tell us.
 
 Thank you for your attention :)
 
