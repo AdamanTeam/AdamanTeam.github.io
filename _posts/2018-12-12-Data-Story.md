@@ -195,9 +195,14 @@ Finally the health impact on food can also be seen through the categories of pro
 
 This pie chart shows the different distribution of aliments consumed in France. It shows that among the three most consumed aliments we have dairies and meals which do not delight on having the highest nutrition scores, due to their high amount of fat and saturated fat. This is probably one of the reasons why its average Nutrition Score is lower than Germany or Spain ones. The nutritionaly worst of all of them being the sugary snacks placed on 5th position.
 
-However, it is yet important to consider the fact that life expectancy can be lower in countries that have conflictive zones or where living requires work under extreme conditions.
+We now display the distribution of the categories of food eaten in Switzerland to see if we do better than our neighbors.
 
-TODO JE VAIS METTRE UN PIE D UN AUTRE PAYS POUR COMPARER
+*Categories of food consumed in Switerland*
+<iframe src="https://plot.ly/~MaxL./4/" width="100%" height="400px"></iframe>
+
+TODO COMMENTER
+
+However, it is yet important to consider the fact that life expectancy can be lower in countries that have conflictive zones or where living requires work under extreme conditions.
 
 We have seen that the food quality can have an impact on our health. We can now ask ourselves, could this lead wealthier countries to import and consume food of better quality ?
 
