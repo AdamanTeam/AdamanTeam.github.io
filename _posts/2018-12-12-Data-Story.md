@@ -202,7 +202,7 @@ This pie chart shows the different distribution of aliments consumed in France. 
 
 We now display the distribution of the categories of food eaten in Switzerland to see if we do better than our neighbors.
 
-*Categories of food consumed in Switerland*
+*Categories of food consumed in Switzerland*
 <iframe src="https://plot.ly/~MaxL./4/" width="100%" height="400px"></iframe>
 
 This time we can see that around a quarter is represented by sugary snacks and desserts which are the main reason why Switzerland has a low nutrition score even though being one of the most wealthy countries of Europe. Dairies represent too almost a quarter of the food products consumed in Switzerland. This food is also known to have a high percentage in fat and this also may contribute to the descent in the nutrition score, nutritionist recommend to consume low-fat dairies if possible and the nutrition score may tell us that swiss people tend to ignore this recommendations.
