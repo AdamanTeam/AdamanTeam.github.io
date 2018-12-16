@@ -116,9 +116,10 @@ More isolated countries like the United States or China, known to be huge consum
 The worst emitters seem to be some african countries like Cameroun or Guinée. The food production seems to be not enough and since the neighboring countries also lack production, they need to import bigger amounts of products from abroad and have then a bigger environmental impact. These are only interpretations and the observed results may also rely on other hidden factors. With more data we would have been able to get more accurate and trustable results. We need to take into account the fact that those countries are surrounded by countries we do not have data from, like the in Middle East, and thus it is probable that importation data from those countries is missing, making the only known come only from further countries, and thus increasing the average.
 
 # Food Societal Aspects
-We will now try to observe the societal aspects of food around the globe.
 
-Before getting started we need to explain the notion of Nutrition Score: The Nutrition Score is a score given to each aliment were they perform an analysis of 26 positive and negative factors compared to the calories in the food. The positive factors are those such as vitamins, minerals, proteins, etc. and the negative ones are those such as cholesterol, saturated fat, sugar, etc.
+Now that we got an idea of the impact of food globalization on the planet we now can ask ourselves what impact it has on us. This is why we now try to see what are the societal aspects of food around the globe.
+
+Before getting started we need to explain the notion of Nutrition Score: The **Nutrition Score** is a score given to each aliment were they perform an analysis of 26 positive and negative factors compared to the calories in the food. The positive factors are those such as vitamins, minerals, proteins, etc. and the negative ones are those such as cholesterol, saturated fat, sugar, etc.
 
 ## Food quality and general health
 We would first like to discover if for a given country the quality of the food that is consumed there can have an influence on the global health of this country. We represent on a world map the average nutrition score for products in a country, for countries having a sufficient amount of product with this data.
