@@ -126,12 +126,14 @@ In order to quantify these grades in our study, we replaced these grades by scor
 ## Food quality and general health
 We would first like to discover if for a given country the quality of the food that is consumed there can have an influence on the global health of this country. We represent on a world map the average nutrition score for products in a country (for countries having a sufficient amount of product with this data).
 
+*Map of the average nutritient score for products consumed in each country*
 <iframe src="https://adamanteam.github.io/nut_scores.html" width="100%" height="400px"></iframe>
 
-Unfortunately, like we see, a large amount of countries do not meet this requirement and thus they are represented in greyish colours. We see that globally nothern countries seem to obtain a better score on average.
+Unfortunately we see that a large amount of countries do not have a sufficient amount of products with known nutrition score and thus they are represented in greyish colours. We still have a sufficient amount of data for Europe and see that globally nothern countries like Sweden or Netherlands seem to obtain a better average nutritient score than more southern countries like Portugal or Italy.
 
-We can also visualize the distribution of the nutrition scores for the countries having the most products in the dataset.
+We can also visualize the distribution of the nutrition scores for the countries having the most Nutritient scores in the dataset. This will gives us a deeper intuition about the repartition of these scores.
 
+*Distribution of the Nutrition Scores for the 6 most represented countries*
 ![_config.yml]({{ site.baseurl }}/images/grades_dist.png)
 
 We can now try to answer our previous question: does food quality have an impact on our health? We can try to analyze this by seeing if we can make any correlation between the average score of a country and its GDP. A high score would indicate that a country has a better alimentation in general and the life expectancy is a good indicator of the global health of a country. This is why we represent the life expectancy next to a normalized average nutrition score, for the countries for which we have data.
