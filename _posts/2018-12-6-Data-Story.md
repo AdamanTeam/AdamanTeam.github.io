@@ -119,10 +119,12 @@ The worst emitters seem to be some african countries like Cameroun or Guinée. T
 
 Now that we got an idea of the impact of food globalization on the planet we now can ask ourselves what impact it has on us. This is why we now try to see what are the societal aspects of food around the globe.
 
-Before getting started we need to explain the notion of Nutrition Score: The **Nutrition Score** is a score given to each aliment were they perform an analysis of 26 positive and negative factors compared to the calories in the food. The positive factors are those such as vitamins, minerals, proteins, etc. and the negative ones are those such as cholesterol, saturated fat, sugar, etc.
+Before getting started we need to explain the notion of Nutrition Score: The **Nutrition Score** is a score given to an aliment to get an estimate of its global nutritional value and quality. It is obtained by performing an analysis of 26 positive and negative factors  related to the food composition that are compared to the quantity of calories. The positive factors are those such as vitamins, minerals, proteins, etc. and the negative ones are those such as cholesterol, saturated fat, sugar, etc. This score in its french version is given as a final grade between letters A and E. 
+
+In order to quantify these grades in our study, we replaced these grades by scores between 1 and 5, 5 being the best score. This way we can compute means and averages and use these values. The nutrition score hence gives us an idea of the quality of the food. The higher it is the healthier the composition of the product is. It is a very interesting data that allow us study the relation between food and health.
 
 ## Food quality and general health
-We would first like to discover if for a given country the quality of the food that is consumed there can have an influence on the global health of this country. We represent on a world map the average nutrition score for products in a country, for countries having a sufficient amount of product with this data.
+We would first like to discover if for a given country the quality of the food that is consumed there can have an influence on the global health of this country. We represent on a world map the average nutrition score for products in a country (for countries having a sufficient amount of product with this data).
 
 <iframe src="https://adamanteam.github.io/nut_scores.html" width="100%" height="400px"></iframe>
 
