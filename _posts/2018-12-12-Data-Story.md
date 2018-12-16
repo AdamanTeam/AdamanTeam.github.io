@@ -209,7 +209,7 @@ This time we can see that around a quarter is represented by sugary snacks and d
 
 However, it is yet important to consider the fact that life expectancy can be lower in countries that have conflictive zones or where living requires work under extreme conditions.
 
-We have seen that the food quality can have an impact on our health. We can now ask ourselves, could this lead wealthier countries to import and consume food of better quality ?
+We have seen that the food quality can have an impact on our health. We can now ask ourselves, could this lead wealthier countries to import and consume food of better quality?
 
 ## Food quality and general wealth
 We try to see if there exists any possible links between the average food quality and the global wealth of a country. If a country is reach enough to produce and import food of better quality will this be the case ? For this we again make use of the nutritional coefficient grades and the GDPs per capita for every country. We plot this data as a bar chart representing the GDP per capita for each country next to a normalized version of their average nutrition score and try to observe if we see any possible dependency.
