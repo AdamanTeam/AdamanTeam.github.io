@@ -136,33 +136,62 @@ We can also visualize the distribution of the nutrition scores for the countries
 *Distribution of the Nutrition Scores for the 6 most represented countries*
 ![_config.yml]({{ site.baseurl }}/images/grades_dist.png)
 
-We can now try to answer our previous question: does food quality have an impact on our health? We can try to analyze this by seeing if we can make any correlation between the average score of a country and its GDP. A high score would indicate that a country has a better alimentation in general and the life expectancy is a good indicator of the global health of a country. This is why we represent the life expectancy next to a normalized average nutrition score, for the countries for which we have data.
+We observe that the distribution of these nutritient scores is far from uniform and changes a lot depending on the country. Hence we cannot make any assumption about the typical nutritient scores distribution (i.e. approximate it by a Gaussian distribution). Also some countries do not have much data, maybe we would had better results with more data. 
 
+We can still say that generally most products seems to have be of average nutritional quality, to have a grade between 2 and 4. Products of very good or very poor quality seems to be less present in comparison.
+
+We can now try to answer our previous question with this data : does food quality have an impact on our health? We can try to analyze this by seeing if we can make any correlation between the average score of a country and its Life expectancy. A high nutritional score would indicate that a country has a better overall alimentation and the life expectancy is a good indicator of the global health of a country. This is why we now represent the life expectancy next to a normalized average nutrition score (for the countries for which we have available data).
+
+*Plot of the Average Nutrition Scores and Life Expectancy per country*
 ![_config.yml]({{ site.baseurl }}/images/grade_lexp.png)
 
-We observe that countries with low nutrition scores seem to have on average a lower life expectancy as it is the case for Romania. The countries with the highest scores, Sweden and the Netherlands, also have some of highest life expectancy of the set. This could suggest that there may be some correlation between the two. We found that their correlation score is of 0.502. This shows that a correlation may be possible but it is still not completely sufficient to prove it. We would need more data to confirm or infirm this assumption.  We draw here a scatter plot to visualize the dependency between the two.
+We observe that countries with low nutrition scores seem to have on average a lower life expectancy as it is the case for Romania. The countries with the highest scores nutrition scores, Sweden and the Netherlands, also have some of highest life expectancy of the set. This could suggest that there may exist some correlation between the two, but it is hard to tell for sure like that. This is why we now draw a scatter plot to visualize the dependency between the two and see if we can fit any interpolation. 
 
+*Scatter Plot of the Average Nutrition Scores and Life Expectancy with interpolation*
 {:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/grade_lexp_corr.png)
 {: refdef}
 
-## Food quality and general wealth
-We can now ask ourselves if there exists any possible links between the average food quality and the global wealth of a country. For this we again make use of the nutritional coefficient grades and the GDPs. We plot the results as a bar chart representing the GDP per capita for each country next to a normalized version of their average nutrition score and try to observe if we see any possible dependency.
+We see that an interpolation is effectively possible here. This shows that a correlation may be possible but it is still not completely sufficient to prove it. We would need more data to confirm or infirm this assumption. We also compute that their correlation score is of **0.502**. This is a pretty high score given the amount of data and the error we have. We could hence say that the food quality can have an impact on the health of a country.
 
+Finally the health impact on food can also be seen through the categories of products that are consumed. Here we take again the case of France and plot the distribution of the food that is consumed there. 
+
+*Categories of food consumed in France*
+<iframe src="https://plot.ly/~MaxL./0.embed" width="100%" height="400px"></iframe>
+
+This pie chart shows the different distribution of aliments consumed in France. It shows that among the three most consumed aliments we have dairies and meals which do not delight on having the highest nutrition scores, due to their high amount of fat and saturated fat. This is probably one of the reasons why its average Nutrition Score is lower than Germany or Spain ones. The nutritionaly worst of all of them being the sugary snacks placed on 5th position.
+
+However, it is yet important to consider the fact that life expectancy can be lower in countries that have conflictive zones or where living requires work under extreme conditions.
+
+TODO JE VAIS METTRE UN PIE D UN AUTRE PAYS POUR COMPARER
+
+We have seen that the food quality can have an impact on our health. We can now ask ourselves, could this lead wealthier countries to import and consume food of better quality ?
+
+## Food quality and general wealth
+We try to see if there exists any possible links between the average food quality and the global wealth of a country. If a country is reach enough to produce and import food of better quality will this be the case ? For this we again make use of the nutritional coefficient grades and the GDPs per capita for every country. We plot this data as a bar chart representing the GDP per capita for each country next to a normalized version of their average nutrition score and try to observe if we see any possible dependency.
+
+*Plot of the Average Nutrition Scores and GDP per capita per country*
 ![_config.yml]({{ site.baseurl }}/images/grade_gdp_capita.png)
 
-We see that there does not seem to be any real correlation between the two data. Wealthy countries like Switzerland, the United States or Australia obtain worse grades than countries with a much lower GDP per capita like Spain or Mexico. This suggests that the wealth of a country does not seem to have any direct influence on the quality of the food that is eaten there. It is not because a country can afford to produce and consume higher quality food that it will do it. We compute the correlation coefficient of this data and get a value of 0.373. As expected this does not indicate any correlation between the wealth and the food quality. We draw again a scatter plot of the values.
+We observe that there does not seem to be any real correlation between the two data. Wealthy countries like Switzerland, the United States or Australia obtain worse grades than countries with a much lower GDP per capita like Spain or Mexico. This suggests that the wealth of a country does not seem to have any direct influence on the quality of the food that is eaten there. To make sure of that we try to make a scatter plot and see what be obtain.
 
+*Scatter Plot of the Average Nutrition Scores and GDP per capita with interpolation*
 {:refdef: style="text-align: center;"}
 ![_config.yml]({{ site.baseurl }}/images/grade_gdp_corr.png)
 {: refdef}
 
-As we see there does not seems to be a clear correlation between the two. More data would have been necessary to confirm this with more confidence.
+The scatter plot shows that an interpolation is possible but it is not as clear as the one we saw previously. We observe many outliers in the are of the 60000 and 80000 GDP per capita as well as in the 10000 area. The two data could be correlated but we need more data. We compute the correlation coefficient of this data and get a value of **0.373**. This indicates a weaker correlation than previously.
 
-Comparing both of the scatter plots we see that life expectancy has a higher correlation to the nutrition grade. However, it is yet important to consider the fact that life expectancy can be lower in countries that have conflictive zones or where living requires work under extreme conditions.
+An interesting we can notice is that most countries seems to have close nutrition scores averages even if they have very different GDPs per capita. Maybe food globalization has lead to this somewhat uniformity of food quality over the world. This seems to benefit to less rich country which still manage to have a good food quality and defavorises the wealthier country which still consume food of lesser quality when they could produce better, but this is subject to interpretation.
+
+In conclusion we can say that it is not because a country can afford to produce and consume higher quality food that it will do it (i.e. the United States). There may still exist a correlation between the wealth and the food quality but it is not very obvious. More data would have been necessary to confirm this with more confidence.
+
+## Conclusion 
+
+As we saw throughout this story, food globalization has many aspects that we saw in the way it impacts the world but also us. On the transportation and evironmental aspects the countries still seems to favorize importations from neighboring countries if they have the choice, otherwise the food they consume can travel thousands of kilometers before being eaten. This can have a serious impact on environment at a time when global warming is more than ever a question of actuality. On the health aspects, we saw that we can effectively talk about an impact of food on health. Countries which eat better seems to have a better overall health. Still we also saw through the economical aspect that it is not because a country is wealthier that it does eat better. The food quality is little influenced by the economy of a country. Rather globalization tends to an unifomization of this food quality around the world. The subject of food is very vast and there are still a lot of aspects that could not be developed in this story. Where will this food globalization lead us ? Only the future will tell us.
+
+Thank you for your attention :)
 
 <!-- Usually, countries with a high nutrition grade have a higher chance to have a higher level of life-style implying a general wealth that is higher than in other countries. We also need to consider that some countries that have some of the highest wealth have the worst lifestyles as it is the case of the United States with one of the highest rate of obesity among its population. -->
 
-<iframe src="https://plot.ly/~MaxL./0.embed" width="100%" height="400px"></iframe>
 
-This graph shows the different distribution of aliments consumed in France. It shows that among the three most consumed aliments we have dairies and meals which do not delight on having the highest nutrition scores due to their high amount of fat and saturated fat. This is probably one of the reasons why its average Nutrition Score is lower than Germany or Spain ones. The worst of all of this being the sugary snacks placed on 5th position.
