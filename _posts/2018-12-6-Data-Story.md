@@ -105,6 +105,7 @@ It is interesting to dig a bit on some of these products, especially fruits and 
 
 *Olives*: <br/>
 Based on its [Wikipedia](https://fr.wikipedia.org/wiki/Olive) page, olives mainly grow on the coasts of the Mediteranean Sea.
+
 *Map of olives distribution*
 {:refdef: style="text-align: center;"}
 ![_config.yml](https://upload.wikimedia.org/wikipedia/commons/a/ab/Olive_niche.jpg)
