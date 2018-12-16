@@ -85,32 +85,7 @@ We now know what quantities of products are transported to France and from where
 ![_config.yml]({{ site.baseurl }}/images/spain_to_france.png)
 {: refdef}
 
-Here we see that these products consists mainly of olive extracts or fruits and vegetables, the most exported products being Huile d'olive (olive oil), Olives Vertes (green olives), Tomate (tomato), Citron (Lemon), Orange (well... oranges), Miel (honey), Framboise (cranberry). Other important products are some spanish specialities like Chorizo or Jambon Serrano (Serrano Ham). It is interesting to dig a bit on some of these products, especially fruits and vegetables, starting with olives:
-
-*Olives*: <br/>
-Based on its [Wikipedia](https://fr.wikipedia.org/wiki/Olive) page, olives mainly grow on the coasts of the Mediteranean Sea.
-*Map of olives distribution*
-{:refdef: style="text-align: center;"}
-![_config.yml](https://upload.wikimedia.org/wikipedia/commons/a/ab/Olive_niche.jpg)
-{: refdef}
-
-As we might know, olive oil is a main ingredient in a lot of recipes, and it definitely a main food component in French cuisine. But since we see that it doesn't really grow in France, we understand the need for them to import it from neighbouring countries to satisfy the demand. We also see on the map that it grows on the majority of Spain.
-
-*Tomato*: <br/>
-A quick look at its [Wikipedia](https://fr.wikipedia.org/wiki/Olive) page also gives a good understand of why it is being one of the most imported food: <br/>
-Spain is one of the biggest Tomato producer in the world :
-
-{:refdef: style="text-align: center;"}
-![_config.yml]({{ site.baseurl }}/images/Tomato_producer.png)
-{: refdef}
-
-While France is part of the biggest consumers worldwide :
-
-{:refdef: style="text-align: center;"}
-![_config.yml]({{ site.baseurl }}/images/tomato_consum.png)
-{: refdef}
-
-Other vegetables follow the same reasonment as the tomatoes, as spain being an important producer and France being an equally important consumer.
+Here we see that these products consists mainly of olive extracts or fruits and vegetables, the most exported products being Huile d'olive (olive oil), Olives Vertes (green olives), Tomate (tomato), Citron (Lemon), Orange (well... oranges), Miel (honey), Framboise (cranberry). Other important products are some spanish specialities like Chorizo or Jambon Serrano (Serrano Ham). 
 
 **Italy**
 {:refdef: style="text-align: center;"}
@@ -125,6 +100,33 @@ Here we also see prodcuts like Miel (Honey), Vinaigre balsamique (balsamic vineg
 {: refdef}
 
 The products exported by the United Kingdom mostly consists of fish or seafood : Saumon fumé, Coquille Saint Jacques, Noix de Saint Jacques, but also alcohols like Whisky. These kind of importations makes sense given the geographical aspects of the United Kingdom, especially being surrounded by sea.
+
+It is interesting to dig a bit on some of these products, especially fruits and vegetables, starting with olives:
+
+*Olives*: <br/>
+Based on its [Wikipedia](https://fr.wikipedia.org/wiki/Olive) page, olives mainly grow on the coasts of the Mediteranean Sea.
+*Map of olives distribution*
+{:refdef: style="text-align: center;"}
+![_config.yml](https://upload.wikimedia.org/wikipedia/commons/a/ab/Olive_niche.jpg)
+{: refdef}
+
+As we might know, olive oil is a main ingredient in a lot of recipes, and it definitely a main food component in French cuisine. But since we see that it doesn't really grow in France, we understand the need for them to import it from neighbouring countries to satisfy the demand. We also see on the map that it grows on the majority of Spain.
+
+*Tomato*: <br/>
+A quick look at its [Wikipedia](https://fr.wikipedia.org/wiki/Olive) page also gives a good understand of why it is being one of the most imported food: <br/>
+Spain and Italy being some of the biggest Tomato producers in the world :
+
+{:refdef: style="text-align: center;"}
+![_config.yml]({{ site.baseurl }}/images/Tomato_producer.png)
+{: refdef}
+
+While France is part of the biggests consumers worldwide :
+
+{:refdef: style="text-align: center;"}
+![_config.yml]({{ site.baseurl }}/images/tomato_consum.png)
+{: refdef}
+
+Other vegetables follow the same reasonment as the tomatoes, as Spain and Italy being important producers and France being an equally important consumer.
 
 As it can be observed, most of the exported products from each of those three countries are signature products that show the identity of the country, its culture, and from which they are renowned. It also gives us insights on what type of bases those countries have in their traditional alimentation.
 
