@@ -2,6 +2,11 @@
 layout: post
 title: A Story of Food Globalization
 ---
+{:refdef: style="text-align: center;"}
+![_config.yml](http://www.eurmscfood.nl/wp-content/uploads/2015/12/Food-studies-in-Europe.png)
+{: refdef}
+
+
 
   It is a simple thing that we may not pay much attention to or that may have become normal in our everyday lives, but the food we buy at the supermarket comes from further and further locations across the globe. If we just think of the products we ate today, it would not be surprising that some were grown or manufactured on another continent. With the fast growth and democratization of transports, the food we eat everyday no longer depends on the local production but tends to come from various parts of the globe.
 
@@ -227,7 +232,7 @@ In conclusion we can say that it is not because a country can afford to produce 
 
 ## Conclusion 
 
-As we saw throughout this story, food globalization has many aspects that we saw in the way it impacts the world but also us. On the transportation and evironmental aspects the countries still seems to favorize importations from neighboring countries if they have the choice, otherwise the food they consume can travel thousands of kilometers before being eaten. This can have a serious impact on environment at a time when global warming is more than ever a topical question. On the health aspects, we saw that we can effectively talk about an impact of food on health. Countries which eat better seems to have a better overall health. Still we also saw through the economical aspect that it is not because a country is wealthier that it does eat better. The food quality is little influenced by the economy of a country. Rather globalization tends to an unifomization of this food quality around the world. The subject of food is very vast and there are still a lot of aspects that could not be developed in this story. Where will this food globalization lead us ? Only the future will tell us.
+As we saw throughout this story, food globalization has many aspects that impacts the world but also us. On the transportation and evironmental aspects the countries still seems to favorize importations from neighboring countries if they have the choice, otherwise the food they consume can travel thousands of kilometers before being eaten. This can have a serious impact on environment at a time when global warming is more than ever a topical question. On the health aspects, we saw that we can effectively talk about an impact of food on health. Countries which eat better seems to have a better overall health. Still we also saw through the economical aspect that it is not because a country is wealthier that it does eat better. The food quality is little influenced by the economy of a country. Rather globalization tends to an unifomization of this food quality around the world. The subject of food is very vast and there are still a lot of aspects that could not be developed in this story. Where will this food globalization lead us ? Only the future will tell us.
 
 Thank you for your attention :)
 
