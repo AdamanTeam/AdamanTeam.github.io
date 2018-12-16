@@ -11,7 +11,9 @@ title: A Story of Food Globalization
 <!---  Our project will mainly focus on important actual issues regarding its ecological and health aspects. We will first get more insights about the food transportation process, about its origin and destination and the ecological footprint of this transportation. We will then get to find how food affects our health by comparing the food consumption of countries to their global health indicators and look for the effects of this uniformization of food consumption. -->
 
 # The Data
- <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Open_Food_Facts_logo.svg" alt="OFF Logo" class="center"> 
+{:refdef: style="text-align: center;"}
+![_config.yml](https://upload.wikimedia.org/wikipedia/commons/7/75/Open_Food_Facts_logo.svg)
+{: refdef}
 
 The data used for this data story can be found on the [Open Food Facts website](https://world.openfoodfacts.org/data). This is a collaborative, free and open database of food products from around the world. A great number of products are referenced in this dataset, along with informations about them like their origin, ingredients, nutrition score...
 Note that since that data is collaborative and maintained by users, some of it can be false or very biased. The raw data was cleaned as much as possible but some errors could still be present. We can show an example of this just by plotting the distribution of the number of products we have in our dataset per country.
