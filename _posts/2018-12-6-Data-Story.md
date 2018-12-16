@@ -3,14 +3,15 @@ layout: post
 title: A Story of Food Globalization
 ---
 
-  It is a simple thing we may not pay much attention to or that may have become normal in our everyday lives but the food we buy at the supermarket comes from further and further locations across the globe. If we just think of the products we ate today it would not be surprising that some were grown or manufactured on another continent. With the fast growth and democratization of transports, the food we eat everyday no longer depends on the local production but tends to come from various parts of the globe.
+  It is a simple thing that we may not pay much attention to or that may have become normal in our everyday lives, but the food we buy at the supermarket comes from further and further locations across the globe. If we just think of the products we ate today, it would not be surprising that some were grown or manufactured on another continent. With the fast growth and democratization of transports, the food we eat everyday no longer depends on the local production but tends to come from various parts of the globe.
 
-  This has a lot of consequences that we are not always aware of. At a time when global warming is more than ever an actual issue we can ask ourselves questions about the ecological impact of this phenomenon. Does food globalization have an important ecological footprint? But we can also ask ourselves about the health aspect, does this change in the way we feed ourselves has an impact on our health ? Using the Open Food Facts Dataset we will discover and analyze the various impacts of this food globalization.
+  This has a lot of consequences that we are not always aware of. At a time when global warming is more than ever an actual issue, we can ask ourselves questions about the ecological impact of this phenomenon. Does food globalization have an important ecological footprint? But we can also ask ourselves about the health aspect, does this change in the way we feed ourselves has an impact on our health ? Using the Open Food Facts Dataset we will discover and analyze the various impacts of this food globalization.
 
 
 <!---  Our project will mainly focus on important actual issues regarding its ecological and health aspects. We will first get more insights about the food transportation process, about its origin and destination and the ecological footprint of this transportation. We will then get to find how food affects our health by comparing the food consumption of countries to their global health indicators and look for the effects of this uniformization of food consumption. -->
 
 # The Data
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Open_Food_Facts_logo.svg" alt="OFF logo">
 The data used for this data story can be found on the [Open Food Facts website](https://world.openfoodfacts.org/data). This is a collaborative, free and open database of food products from around the world. A great number of products are referenced in this dataset, along with informations about them like their origin, ingredients, nutrition score...
 Note that since that data is collaborative and maintained by users, some of it can be false or very biased. The raw data was cleaned as much as possible but some errors could still be present. We can show an example of this just by plotting the distribution of the number of products we have in our dataset per country.
 
